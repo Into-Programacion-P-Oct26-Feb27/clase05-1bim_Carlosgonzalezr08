@@ -27,6 +27,10 @@ public class Ejemplo41 {
         //F           or          //F         >>>>> F
         if (ciudad.equals("Loja") && ciudad.equals("Machala") &&
                 ciudad.equals("Guayaquil")) {
+        /*
+            Con && no es correcto porq no hay logica ya que no puede tener
+            tres ciudades al mismo tiempo
+            */
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
